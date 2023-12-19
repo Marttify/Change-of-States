@@ -30,7 +30,7 @@ export default function App() {
 
   return (
     <div>
-      <h1 className="text-orange-500"> loading? </h1>
+      <h1 className="text-orange-500"> !Escanea y listo!</h1>
       {isloading ? (
         <div className="custom-loader"></div>
       ) : (
