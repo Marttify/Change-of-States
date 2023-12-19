@@ -28,7 +28,6 @@ h2 {
   margin: auto;
   display: grid;
   border-radius: 50%;
-  -webkit-mask: radial-gradient(farthest-side, #0000 40%, #000 41%);
   background: linear-gradient(0deg, #766df480 50%, #766df4ff 0) center/4px 100%,
     linear-gradient(90deg, #766df440 50%, #766df4bf 0) center/100% 4px;
   background-repeat: no-repeat;

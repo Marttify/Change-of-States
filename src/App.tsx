@@ -30,14 +30,14 @@ export default function App() {
 
   return (
     <div>
-      <h1 className="text-orange-500"> !Escanea y listo!</h1>
+      <h1 className="text-orange-500"> !To access!</h1>
       {isloading ? (
         <div className="custom-loader"></div>
       ) : (
         <h2 className={`${hidden === false ? 'none' : 'block'}`}>QR</h2>
       )}
-      <div className="voltage-button">
         
+      <div className='voltage-button'>
         <button
           onClick={revalidateUser}
           className={`${hidden === true ? 'none' : 'block'}`}
